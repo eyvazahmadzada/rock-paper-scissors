@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper & Scissors</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="header">Rock, Paper & Scissors</h1>
+      <div class="message hide">
+        Reach <span class="winScore"></span> and win!
+      </div>
+
+      <div class="score hide">
+        <div class="user">
+          <small>user</small>
+          <span class="userScore">0</span>
+        </div>
+        <div class="computer">
+          <span class="computerScore">0</span>
+          <small>comp</small>
+        </div>
+      </div>
+
+      <input type="number" placeholder="Number of rounds" />
+      <button>Start Game</button>
+
+      <div class="gameArea">
+        <div class="area hide">
+          <h2>User</h2>
+          <img src="./assets/rock.png" alt="rock" />
+          <img src="./assets/paper.png" alt="paper" />
+          <img src="./assets/scissors.png" alt="scissors" />
+        </div>
+        <div class="computerArea hide">
+          <h2>Computer</h2>
+          <img src="./assets/rock.png" alt="rock" />
+          <img src="./assets/paper.png" alt="paper" />
+          <img src="./assets/scissors.png" alt="scissors" />
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; 2020 Eyvaz Ahmadzada</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
